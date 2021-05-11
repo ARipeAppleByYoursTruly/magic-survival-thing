@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dfdfdf;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  user-select: none;
+}
+
+table {
+  width: 2500px;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
